@@ -22,6 +22,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import WebDriverMaven.Helper;
 
 public class SampleTests {
 	private WebDriver driver;
@@ -108,7 +109,7 @@ public class SampleTests {
 	@BeforeTest
 	@Parameters("browser")
 	public void beforeTest(@Optional("chrome") String browser) {
-		System.out.println("Before test method");		
+		System.out.println("Before test method");
 		driver = Helper.createDriver(browser);
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
