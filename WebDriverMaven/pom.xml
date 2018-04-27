@@ -6,7 +6,7 @@
   <properties>
 		<jre.level>1.7</jre.level>
 		<jdk.level>1.7</jdk.level>
-  </properties>
+</properties>
   <dependencies>							
         <dependency>				
             <groupId>org.seleniumhq.selenium</groupId>								

@@ -8,7 +8,7 @@
     </classes>
   </test> 
   <test name="FirefoxTest">
-  <parameter name="browser" value="firefox" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="WebDriverMaven.SampleTests"/>
     </classes>
